@@ -5,9 +5,9 @@
 
 ![RaspiBlitz](pictures/raspiblitz.jpg)
 
-**The RaspiBlitz is a all-switches-on Lightning Node based on LND running together with a Bitcoin- or Litecoin-Fullnode on a RaspberryPi3 - with a 1TB HDD and an nice Display for easy setup & monitoring.**
+**The RaspiBlitz is a all-switches-on Lightning Node based on LND running together with a Bitcoin- or Litecoin-Fullnode on a RaspberryPi3 - with a 1TB HDD and a nice Display for easy setup & monitoring.**
 
-Its mainly targeted for learning how to run your own node decentralized from home. Discover & develop the growing ecosystem of the Lightning Network by becoming a part of it.
+It is mainly targeted for learning how to run your own node decentralized from home. Discover & develop the growing ecosystem of the Lightning Network by becoming a part of it.
 
 ## Feature Overview
 
@@ -19,7 +19,7 @@ There are additional services that can be switched on:
 
 ![MainMenu-Services](pictures/mainmenu-services.png)
 
-As an parallel alternative to the SSH menu there is also the RTL WebUI available (LND API Coverage at 57%): 
+As a parallel alternative to the SSH menu there is also the RTL WebUI available (LND API Coverage at 57%): 
 
 ![RTL-preview](pictures/RTL-dashboard.png)
 
@@ -27,9 +27,9 @@ See more details in the [Feature Documentation](#feature-documentation) & of cou
 
 ## Time Estimate to Setup a RaspiBlitz
 
-The RaspiBlitz is optimized for being setup during a workshop at a hackday or conference. When it comes ready assembled together with a up-to-date synced blockchain its possible to have it ready in about 2 to 3 hours - most is waiting time.
+The RaspiBlitz is optimized for being setup during a workshop at a hackday or conference. When it comes ready assembled together with a up-to-date synced blockchain it is possible to have it ready in about 2 to 3 hours - most is waiting time.
 
-If you start at home ordering the parts from Amazon (see shopping list below) then its a weekend project with a lot of download and syncing time where you can do other stuff while checking on the progress from time to time. 
+If you start at home ordering the parts from Amazon (see shopping list below) then its a weekend project with a lot of download and syncing time where you can work on other tasks while checking on the progress from time to time. 
 
 ## Hardware Needed
 
@@ -57,13 +57,13 @@ These are the community currated shopping lists based on country:
 * [Australia](shoppinglist_au.md)
 * [Czech](shoppinglist_cz.md)
 
-*You can even pay your RaspiBlitz Amazon Shopping with Bitcoin & Lightning thru [Bitrefill](https://blog.bitrefill.com/its-here-buy-amazon-vouchers-with-bitcoin-on-bitrefill-bb2a4449724a).*
+*You can even use Bitcoin and Lightning to pay for your RaspiBlitz Amazon shopping through [Bitrefill](https://blog.bitrefill.com/its-here-buy-amazon-vouchers-with-bitcoin-on-bitrefill-bb2a4449724a).*
 
 * [What other case options do I have?](FAQ.md#what-other-case-options-do-i-have)
 
 ## Assemble your RaspiBlitz
 
-If your RaspiBlitz is not assembled yet, put the RaspberryPi board into the case and add the display like in picture below:
+If your RaspiBlitz is not assembled yet, place the RaspberryPi board into the case and add the display like in picture below:
 
 ![LCD](pictures/lcdassm.png)
 
@@ -94,8 +94,8 @@ https://www.raspberrypi.org/documentation/installation/installing-images/README.
 
 Insert the SD card and connect the power plug.
 
-* Make sure to connect the raspberry with a LAN cable to the internet at this point.
-* Make sure that your laptop and the raspberry are on the same local network.
+* Make sure to connect the RaspberryPi with a LAN cable to the internet at this point.
+* Make sure that your laptop and the RaspberryPi are on the same local network.
 
 **Troubleshoot:**
 
@@ -577,7 +577,7 @@ You have still more questions? Check the [RaspiBlitz-FAQ-Archive](FAQ.md).
 
 ## Community Development
 
-Everybody is welcome to join, improve and extend the RaspiBlitz - its a work in progress. [Check the issues](https://github.com/rootzoll/raspiblitz/issues) if you wanna help out or add new ideas. You find the scripts used for RaspiBlitz interactions on the device at `/home/admin` or in this git repo in the subfolder `home.admin`.
+Everybody is welcome to join, improve and extend the RaspiBlitz - it is a work in progress. [Check the issues](https://github.com/rootzoll/raspiblitz/issues) if you wanna help out or add new ideas. You find the scripts used for RaspiBlitz interactions on the device at `/home/admin` or in this git repo in the subfolder `home.admin`.
 
 Also get inspired for a deep-dive with the original "[RaspiBolt](https://github.com/Stadicus/guides/tree/master/raspibolt)" tutorial on how to build a lightning node on the RaspberryPi which was the base work the RaspiBlitz was developed on - so much thx to Stadicus :)
 
